@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Fira Sans Condensed');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/weatherimg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans Condensed';
+}
+
+code {
+    font-family: 'Fira Sans Condensed';
+}
+
+.search {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 350px;
+    height: 50px;
+    outline: none;
+    margin: 100px;
+    font-size: 16px;
+}
+
+.apps {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Fira Sans Condensed';
+}
+
+.card {
+    margin: 5px auto;
+    width: 300px;
+    height: 500px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+}
+
+.temperature-box {
+    text-align: center;
+}
+
+.temperature-box .temp {
+    position: relative;
+    display: inline-block;
+    margin: 20px auto;
+    border-radius: 19px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    -ms-border-radius: 19px;
+    -o-border-radius: 19px;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.location {
+    background: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+    margin-top: 120px;
+    background-color: grey;
+    height: 245px;
+    border-radius: 40px;
+}
+
+.weather {
+    text-align: justify;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 568px) {
+    .search {
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        width: 280px;
+        height: 40px;
+        outline: none;
+        margin: 100px auto;
+        font-size: 16px;
+    }
+    .card {
+        margin: 5px auto;
+        width: 280px;
+        height: 500px;
+        border-radius: 40px;
+        box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    }
+}
